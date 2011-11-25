@@ -1,0 +1,23 @@
+Blackberry Chat with Xmpp & BOSH Support
+============================================================
+
+Note: This project is made under Eclipse IDE.
+
+Features currently implemented:
+
+- Online/Busy/Away/Offline User List (as usual)
+
+- Chat History (local chat history)
+
+- Chat Notification Msg (Shown when user chatting with buddy1 and buddy2 chat arrives)
+
+- Fully Implemented Chat Screen (With chat bubble -- i like it)
+
+- More Comming Soon
+
+[![](https://lh5.googleusercontent.com/-n_3FOUH2qh0/Ts956V-UUkI/AAAAAAAAAA4/zM70oxA1l3U/s144/buddylist.jpg)](https://lh5.googleusercontent.com/-n_3FOUH2qh0/Ts956V-UUkI/AAAAAAAAAA4/zM70oxA1l3U/s144/buddylist.jpg)
+[![](https://lh4.googleusercontent.com/-lUKW4d0sy-I/Ts956cnb7vI/AAAAAAAAAA8/FeAVrIHUvN0/s576/chatscreen.jpg)](https://lh4.googleusercontent.com/-lUKW4d0sy-I/Ts956cnb7vI/AAAAAAAAAA8/FeAVrIHUvN0/s576/chatscreen.jpg)
+[![](https://lh4.googleusercontent.com/-ZB3qpg3skuM/Ts956YrXjyI/AAAAAAAAAA0/gpPHvLljSuc/s144/notification.jpg)](https://lh4.googleusercontent.com/-ZB3qpg3skuM/Ts956YrXjyI/AAAAAAAAAA0/gpPHvLljSuc/s144/notification.jpg) 
+
+[we]:http://www.raweng.com
+[raw engineering]:http://www.raweng.com
