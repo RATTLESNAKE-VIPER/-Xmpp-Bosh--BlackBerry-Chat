@@ -10,6 +10,7 @@ import javax.microedition.rms.RecordEnumeration;
 import javax.microedition.rms.RecordStoreException;
 
 import net.rim.device.api.system.Bitmap;
+import net.rim.device.api.system.Characters;
 import net.rim.device.api.system.Display;
 import net.rim.device.api.ui.Color;
 import net.rim.device.api.ui.Field;
@@ -75,6 +76,8 @@ public class MessageScreen extends MainScreen {
 				if (ChatManager.buddyscreen.getRecentBuddyList().recentBuddyVector.size() == 0)  {
 					ChatManager.buddyscreen.delete(ChatManager.buddyscreen.getRecentBuddyList());
 				}
+				
+				onClose();
 			}
 		});
 	}
@@ -164,7 +167,7 @@ public class MessageScreen extends MainScreen {
 	}
 
 
-	/*public boolean keyChar(char key, int status, int time) {
+	public boolean keyChar(char key, int status, int time) {
 		Field currField = this.getFieldWithFocus();
 		if (currField == ef) {
 			//CustomTextBox was basically my EditField, just made a custom field for it.
@@ -178,7 +181,7 @@ public class MessageScreen extends MainScreen {
 				return super.keyChar(key, status, time);
 			}
 		}
-	}*/
+	}
 
 
 	private void send() {
@@ -282,12 +285,11 @@ public class MessageScreen extends MainScreen {
 		if (bubbleManager.getFieldCount() > 0) {
 			//bubbleManager.getField(bubbleManager.getFieldCount()-1).setFocus();
 			
-			// [field count - 2] because we have added nullfield to last position 
 			Field f = bubbleManager.getField(bubbleManager.getFieldCount()-1);
-			int y = f.getTop() - (height - ((footer.getHeight() * 2) + titleHeight + 20));
+			int y = f.getTop() - (height - ((footer.getHeight()) + titleHeight + 10));
 			if (y > 0) {
 				bubbleManager.setVerticalScroll(y);
-			}			
+			}
 		}
 	}
 

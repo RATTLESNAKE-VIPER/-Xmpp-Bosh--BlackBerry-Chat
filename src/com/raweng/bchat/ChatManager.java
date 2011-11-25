@@ -540,7 +540,7 @@ public class ChatManager implements XmppListener {
 		if (currentBuddy != null && currentBuddy.jid.equalsIgnoreCase(from)) {
 			isCurrentBuddy = true;
 			currentBuddy.session = id;
-			currentBuddy.receiveMessage(from, to, buddyscreen.getRecentBuddyList().findBuddy(from).name, body, true);
+			currentBuddy.receiveMessage(from, to, buddyscreen.getBuddyList().findBuddy(from).name, body, true);
 			
 		// from other buddy
 		} else {
@@ -564,9 +564,9 @@ public class ChatManager implements XmppListener {
 				
 				// Notification
 				if (currentBuddy != null && !currentBuddy.jid.equalsIgnoreCase(from)) {
-					currentBuddy.newMessage(from, to, buddyscreen.getRecentBuddyList().findBuddy(from).name, body, true);
+					currentBuddy.newMessage(from, to, buddyscreen.getBuddyList().findBuddy(from).name, body, true);
 				} else {
-					b.newMessage(from, to, buddyscreen.getRecentBuddyList().findBuddy(from).name, body, false);
+					b.newMessage(from, to, buddyscreen.getBuddyList().findBuddy(from).name, body, false);
 				}
 			} else {
 				System.out.println("[warning] Message from unkown buddy");

@@ -35,6 +35,8 @@ public class ChatBoxTextBoxField extends VerticalFieldManager {
 				super.paint(g);
 			}
 		};
+		editField.setNonSpellCheckable(true);
+		
 
 		vfm.setPadding(10, 20, 10, 20);
 		vfm.add(editField);
