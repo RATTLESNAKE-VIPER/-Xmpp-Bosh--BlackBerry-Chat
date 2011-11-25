@@ -8,7 +8,7 @@ import net.rim.device.api.ui.Graphics;
 import net.rim.device.api.ui.Manager;
 import net.rim.device.api.ui.component.EditField;
 
-import com.raweng.bchat.MessageModel;
+import com.raweng.rawchat.MessageModel;
 
 public class ChatBubble extends Manager {
 	private static final Bitmap blue_bubble = Bitmap.getBitmapResource("blue_bubble.png");

@@ -1,6 +1,6 @@
 package com.raweng.xmppservice;
 
-import com.raweng.bchat.ChatManager;
+import com.raweng.rawchat.ChatManager;
 
 
 public class Connection {
