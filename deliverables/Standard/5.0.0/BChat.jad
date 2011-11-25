@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+MIDlet-Version: 1.0.0
+MIDlet-Jar-Size: 217798
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-Jar-URL: BChat.jar
+RIM-COD-Module-Dependencies: net_rim_cldc,net_rim_os
+RIM-COD-URL-1: BChat-1.cod
+RIM-COD-SHA1-1: ed 6f b2 c6 3b 6c 2e c3 4c 8f fb e5 a4 06 71 20 8c 74 5d 7e
+RIM-MIDlet-Flags-1: 0
+RIM-COD-Size-1: 22456
+RIM-COD-Module-Name: BChat
+MIDlet-Name: BChat
+RIM-COD-Size: 72160
+RIM-COD-Creation-Time: 1322213674
+MIDlet-1: ,,
+RIM-COD-URL: BChat.cod
+RIM-COD-SHA1: b3 8b e1 e7 8a 81 91 77 a4 3e 6d d8 53 db 2c 5e 95 a1 bc 24
+MicroEdition-Profile: MIDP-2.0
+MIDlet-Vendor: BlackBerry Developer
